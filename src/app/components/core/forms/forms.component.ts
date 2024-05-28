@@ -36,11 +36,9 @@ export class FormsComponent implements OnInit {
       notes: ['']
     });
   }
-
   onBack(): void {
     this._router.navigate(['/flexy/home']);
   }
-
   onSubmit(): void {
     if (this.petRegisterForm.valid) {
       const { petName, species, breed, age, color, weight, birthDate, microchip, notes } = this.petRegisterForm.value;

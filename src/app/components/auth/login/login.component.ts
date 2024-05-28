@@ -15,7 +15,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   standalone: true,
   imports: [ ReactiveFormsModule, MatIconModule, MatFormFieldModule, MatInputModule, FormsModule, MatCheckboxModule, MatRadioModule, MatButtonModule],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css' // Cambiado de styleUrl a styleUrls
+  styleUrl: './login.component.css'
 })
 
 export class LoginComponent {
