@@ -1,0 +1,26 @@
+<div class="card" style="max-width: 500px; margin: 0 auto;">
+    <div class="card-body text-center">
+        <img src="../../../../assets/images/logo.png" alt="Imagen de perfil" class="rounded-circle mb-4"
+            style="width: 200px; height: 200px;">
+        <h4 class="mb-3 tl" style="font-size: 28px;">Formulario de Logeo</h4>
+
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="mt-4">
+            <mat-form-field class="w-100 fs-16" appearance="outline">
+                <mat-label>Username</mat-label>
+                <mat-icon matPrefix>person</mat-icon>
+                <input matInput id="username" type="text" formControlName="username" placeholder="Enter your username">
+            </mat-form-field>
+
+            <mat-form-field class="w-100 fs-16" appearance="outline">
+                <mat-label>Password</mat-label>
+                <mat-icon matPrefix>lock</mat-icon>
+                <input matInput id="password" type="password" formControlName="password"
+                    placeholder="Enter your password">
+            </mat-form-field>
+
+            <div class="text-center mb-4">
+                <button class="btn btn-info fw-normal" style="width: 50%;" type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</div>

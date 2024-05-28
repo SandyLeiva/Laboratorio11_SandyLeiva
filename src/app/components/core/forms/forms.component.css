@@ -1,0 +1,21 @@
+.tl{
+    margin-bottom: 40px;
+    font-size: 24px
+}
+.ts{
+    margin-bottom: 10px;
+    font-size: 20px
+}
+
+.custom-snackbar {
+    background-color: #4caf50; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+}
+  
+.custom-snackbar-error {
+    background-color: #f44336; /* Color de fondo para errores */
+    color: white; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+}
+  
